@@ -18,6 +18,7 @@ div {
   display: inline-block;
   max-width: 25em;
   padding: 1em;
+  text-align:left;
 }
 
 img {
@@ -25,25 +26,21 @@ img {
   display: block;
 }
 
-h2 {
-  text-align: left;
-}
-
-p {
-  text-align: left;
+p{
+  margin: 1em 0 1em 0;
 }
 
 a {
   padding: 0.5em;
   border: 2px solid #333;
   border-radius: 4px;
-  text-align: left;
 }
 
 a:hover {
   background-color: #333;
   color: #fff;
 }
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
